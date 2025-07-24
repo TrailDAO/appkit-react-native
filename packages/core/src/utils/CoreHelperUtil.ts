@@ -1,7 +1,7 @@
 /* eslint-disable no-bitwise */
 
 import { Linking, Platform } from 'react-native';
-import { ConstantsUtil as CommonConstants, type Balance } from '@reown/appkit-common-react-native';
+import { ConstantsUtil as CommonConstants, type Balance } from '@traildao/appkit-common-react-native';
 import * as ct from 'countries-and-timezones';
 
 import { ConstantsUtil } from './ConstantsUtil';

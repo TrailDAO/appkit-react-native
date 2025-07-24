@@ -1,7 +1,7 @@
 import { StyleSheet, type StyleProp, type ViewStyle } from 'react-native';
 import { UpgradeWalletButton } from './upgrade-wallet-button';
-import { ListItem, ListSocial, Spacing, Text } from '@reown/appkit-ui-react-native';
-import type { SocialProvider } from '@reown/appkit-common-react-native';
+import { ListItem, ListSocial, Spacing, Text } from '@traildao/appkit-ui-react-native';
+import type { SocialProvider } from '@traildao/appkit-common-react-native';
 
 export interface AuthButtonsProps {
   onUpgradePress: () => void;

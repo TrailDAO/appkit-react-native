@@ -1,4 +1,4 @@
-import { FlexView, Text, Shimmer } from '@reown/appkit-ui-react-native';
+import { FlexView, Text, Shimmer } from '@traildao/appkit-ui-react-native';
 import { Dimensions, ScrollView } from 'react-native';
 import { Header } from './Header';
 import styles from '../styles';

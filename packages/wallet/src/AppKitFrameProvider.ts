@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events';
 import type { RefObject } from 'react';
 import WebView from 'react-native-webview';
-import { CoreHelperUtil } from '@reown/appkit-core-react-native';
+import { CoreHelperUtil } from '@traildao/appkit-core-react-native';
 import type { AppKitFrameTypes } from './AppKitFrameTypes';
 import { AppKitFrameConstants, AppKitFrameRpcConstants } from './AppKitFrameConstants';
 import { AppKitFrameStorage } from './AppKitFrameStorage';

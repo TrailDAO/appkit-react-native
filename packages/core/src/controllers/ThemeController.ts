@@ -1,5 +1,5 @@
 import { proxy, subscribe as sub } from 'valtio';
-import type { ThemeMode, ThemeVariables } from '@reown/appkit-common-react-native';
+import type { ThemeMode, ThemeVariables } from '@traildao/appkit-common-react-native';
 
 // -- Types --------------------------------------------- //
 export interface ThemeControllerState {

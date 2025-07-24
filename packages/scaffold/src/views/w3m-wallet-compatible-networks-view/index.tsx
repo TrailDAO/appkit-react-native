@@ -1,12 +1,12 @@
 import { ScrollView } from 'react-native';
 import { useSnapshot } from 'valtio';
-import { FlexView, Text, Banner, NetworkImage } from '@reown/appkit-ui-react-native';
+import { FlexView, Text, Banner, NetworkImage } from '@traildao/appkit-ui-react-native';
 import {
   AccountController,
   ApiController,
   AssetUtil,
   NetworkController
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 import styles from './styles';
 

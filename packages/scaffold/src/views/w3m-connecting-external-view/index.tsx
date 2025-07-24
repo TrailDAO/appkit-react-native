@@ -9,14 +9,14 @@ import {
   EventsController,
   StorageUtil,
   type WcWallet
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import {
   Button,
   FlexView,
   IconBox,
   LoadingThumbnail,
   WalletImage
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 import { ConnectingBody, getMessage, type BodyErrorType } from '../../partials/w3m-connecting-body';

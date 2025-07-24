@@ -1,8 +1,8 @@
 import { useSnapshot } from 'valtio';
 import { useEffect } from 'react';
 import { Platform, ScrollView } from 'react-native';
-import { NumberUtil } from '@reown/appkit-common-react-native';
-import { RouterController, SwapController } from '@reown/appkit-core-react-native';
+import { NumberUtil } from '@traildao/appkit-common-react-native';
+import { RouterController, SwapController } from '@traildao/appkit-core-react-native';
 import {
   Button,
   FlexView,
@@ -11,7 +11,7 @@ import {
   Text,
   TokenButton,
   UiUtil
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import { SwapDetails } from '../../partials/w3m-swap-details';
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 import { useKeyboard } from '../../hooks/useKeyboard';

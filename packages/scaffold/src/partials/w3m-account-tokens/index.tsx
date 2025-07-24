@@ -12,7 +12,7 @@ import {
   AssetUtil,
   NetworkController,
   RouterController
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import {
   FlexView,
   ListItem,
@@ -20,7 +20,7 @@ import {
   ListToken,
   useTheme,
   Spacing
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 
 interface Props {
   style?: StyleProp<ViewStyle>;

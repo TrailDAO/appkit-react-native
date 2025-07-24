@@ -2,7 +2,7 @@ import {
   OnRampController,
   RouterController,
   ThemeController
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import {
   BorderRadius,
   Button,
@@ -12,10 +12,10 @@ import {
   Spacing,
   Text,
   useTheme
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import { StyleSheet } from 'react-native';
 import { useSnapshot } from 'valtio';
-import { NumberUtil, StringUtil } from '@reown/appkit-common-react-native';
+import { NumberUtil, StringUtil } from '@traildao/appkit-common-react-native';
 
 export function OnRampCheckoutView() {
   const Theme = useTheme();

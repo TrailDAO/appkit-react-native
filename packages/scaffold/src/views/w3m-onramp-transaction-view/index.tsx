@@ -5,9 +5,9 @@ import {
   ConnectorController,
   OnRampController,
   RouterController
-} from '@reown/appkit-core-react-native';
-import { StringUtil } from '@reown/appkit-common-react-native';
-import { Button, FlexView, IconBox, Image, Text, useTheme } from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-core-react-native';
+import { StringUtil } from '@traildao/appkit-common-react-native';
+import { Button, FlexView, IconBox, Image, Text, useTheme } from '@traildao/appkit-ui-react-native';
 import styles from './styles';
 
 export function OnRampTransactionView() {

@@ -6,8 +6,8 @@ import {
   ConnectionController,
   type ConnectionControllerState,
   type WcWallet
-} from '@reown/appkit-core-react-native';
-import { ListItemLoader, ListWallet } from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-core-react-native';
+import { ListItemLoader, ListWallet } from '@traildao/appkit-ui-react-native';
 import { UiUtil } from '../../../utils/UiUtil';
 import { filterOutRecentWallets } from '../utils';
 

@@ -8,8 +8,8 @@ import {
   AssetUtil,
   ThemeController,
   ApiController
-} from '@reown/appkit-core-react-native';
-import { AccountButton as AccountButtonUI, ThemeProvider } from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-core-react-native';
+import { AccountButton as AccountButtonUI, ThemeProvider } from '@traildao/appkit-ui-react-native';
 
 export interface AccountButtonProps {
   balance?: 'show' | 'hide';

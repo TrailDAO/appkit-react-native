@@ -7,9 +7,9 @@ import {
   ConnectionController,
   ConnectorController,
   type AppKitFrameProvider
-} from '@reown/appkit-core-react-native';
-import { IconLink, Text, FlexView } from '@reown/appkit-ui-react-native';
-import { StringUtil } from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-core-react-native';
+import { IconLink, Text, FlexView } from '@traildao/appkit-ui-react-native';
+import { StringUtil } from '@traildao/appkit-common-react-native';
 
 import styles from './styles';
 

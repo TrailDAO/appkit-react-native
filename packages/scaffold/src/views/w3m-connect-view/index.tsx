@@ -8,8 +8,8 @@ import {
   OptionsController,
   RouterController,
   type WcWallet
-} from '@reown/appkit-core-react-native';
-import { FlexView, Icon, ListItem, Separator, Spacing, Text } from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-core-react-native';
+import { FlexView, Icon, ListItem, Separator, Spacing, Text } from '@traildao/appkit-ui-react-native';
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 import { ConnectEmailInput } from './components/connect-email-input';
 import { useKeyboard } from '../../hooks/useKeyboard';

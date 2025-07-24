@@ -8,7 +8,7 @@ import {
   SnackController,
   EventsController,
   type AppKitFrameProvider
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 
 import { OtpCodeView } from '../../partials/w3m-otp-code';
 

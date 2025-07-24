@@ -7,7 +7,7 @@ import {
   type IconType,
   Button,
   type ColorType
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 
 interface Props {
   icon?: IconType;

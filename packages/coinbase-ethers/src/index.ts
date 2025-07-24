@@ -1,6 +1,6 @@
 import { configure, WalletMobileSDKEVMProvider } from '@coinbase/wallet-mobile-sdk';
 import type { WalletMobileSDKProviderOptions } from '@coinbase/wallet-mobile-sdk/build/WalletMobileSDKEVMProvider';
-import { ConstantsUtil, PresetsUtil } from '@reown/appkit-common-react-native';
+import { ConstantsUtil, PresetsUtil } from '@traildao/appkit-common-react-native';
 
 interface RequestArguments {
   readonly method: string;

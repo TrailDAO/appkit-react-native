@@ -1,6 +1,6 @@
 // -- Types --------------------------------------------- //
 
-import { NumberUtil } from '@reown/appkit-common-react-native';
+import { NumberUtil } from '@traildao/appkit-common-react-native';
 import type { SwapTokenWithBalance } from './TypeUtil';
 
 // -- Util ---------------------------------------- //

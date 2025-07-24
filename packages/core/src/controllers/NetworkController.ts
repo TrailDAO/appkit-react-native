@@ -1,7 +1,7 @@
 import { proxy, ref } from 'valtio';
 import type { CaipNetwork, CaipNetworkId } from '../utils/TypeUtil';
 import { PublicStateController } from './PublicStateController';
-import { NetworkUtil } from '@reown/appkit-common-react-native';
+import { NetworkUtil } from '@traildao/appkit-common-react-native';
 import { ConstantsUtil } from '../utils/ConstantsUtil';
 
 // -- Types --------------------------------------------- //

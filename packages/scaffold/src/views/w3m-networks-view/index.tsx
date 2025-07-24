@@ -7,7 +7,7 @@ import {
   Separator,
   Spacing,
   Text
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import {
   ApiController,
   AssetUtil,
@@ -17,7 +17,7 @@ import {
   EventsController,
   CoreHelperUtil,
   NetworkUtil
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 import styles from './styles';
 

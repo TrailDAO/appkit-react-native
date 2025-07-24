@@ -5,7 +5,7 @@ import type {
   ThemeMode,
   Transaction,
   ConnectorType
-} from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-common-react-native';
 import { OnRampErrorType } from './ConstantsUtil';
 
 export interface BaseError {

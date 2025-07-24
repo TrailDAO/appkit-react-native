@@ -9,8 +9,8 @@ import {
   Text,
   TransactionUtil,
   useTheme
-} from '@reown/appkit-ui-react-native';
-import { type Transaction, type TransactionImage } from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-ui-react-native';
+import { type Transaction, type TransactionImage } from '@traildao/appkit-common-react-native';
 import {
   AccountController,
   AssetUtil,
@@ -18,7 +18,7 @@ import {
   NetworkController,
   OptionsController,
   TransactionsController
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import { Placeholder } from '../w3m-placeholder';
 import { getTransactionListItemProps } from './utils';
 import styles from './styles';

@@ -5,10 +5,10 @@ import {
   AssetUtil,
   RouterController,
   ApiController
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 
-import { ListWallet } from '@reown/appkit-ui-react-native';
-import type { ConnectorType } from '@reown/appkit-common-react-native';
+import { ListWallet } from '@traildao/appkit-ui-react-native';
+import type { ConnectorType } from '@traildao/appkit-common-react-native';
 
 interface Props {
   itemStyle: StyleProp<ViewStyle>;

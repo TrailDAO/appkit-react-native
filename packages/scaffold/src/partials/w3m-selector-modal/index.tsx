@@ -11,9 +11,9 @@ import {
   Spacing,
   Text,
   useTheme
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import styles from './styles';
-import { AssetUtil, NetworkController } from '@reown/appkit-core-react-native';
+import { AssetUtil, NetworkController } from '@traildao/appkit-core-react-native';
 
 interface SelectorModalProps {
   title?: string;

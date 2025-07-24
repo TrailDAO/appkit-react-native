@@ -1,6 +1,6 @@
 import { useSnapshot } from 'valtio';
 import { useState } from 'react';
-import { ConstantsUtil, NetworkController, SwapController } from '@reown/appkit-core-react-native';
+import { ConstantsUtil, NetworkController, SwapController } from '@traildao/appkit-core-react-native';
 import {
   FlexView,
   Text,
@@ -9,8 +9,8 @@ import {
   useTheme,
   Pressable,
   Icon
-} from '@reown/appkit-ui-react-native';
-import { NumberUtil } from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-ui-react-native';
+import { NumberUtil } from '@traildao/appkit-common-react-native';
 
 import { InformationModal } from '../w3m-information-modal';
 import styles from './styles';

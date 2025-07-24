@@ -5,14 +5,14 @@ import {
   AssetUtil,
   SnackController,
   type WcWallet
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import {
   CardSelect,
   CardSelectHeight,
   CardSelectLoader,
   FlexView,
   Spacing
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 import { Placeholder } from '../w3m-placeholder';
 import styles from './styles';

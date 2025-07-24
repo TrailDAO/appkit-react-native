@@ -1,7 +1,7 @@
 import { useSnapshot } from 'valtio';
 import { useState } from 'react';
 import { FlatList } from 'react-native';
-import { Icon, ListItem, Separator, Text } from '@reown/appkit-ui-react-native';
+import { Icon, ListItem, Separator, Text } from '@traildao/appkit-ui-react-native';
 import {
   ApiController,
   AssetUtil,
@@ -12,7 +12,7 @@ import {
   NetworkUtil,
   type CaipNetwork,
   type NetworkControllerState
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import styles from './styles';
 
 export function UnsupportedChainView() {

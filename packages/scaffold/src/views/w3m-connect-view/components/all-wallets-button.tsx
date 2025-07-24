@@ -1,6 +1,6 @@
 import { useSnapshot } from 'valtio';
-import { ApiController } from '@reown/appkit-core-react-native';
-import { ListWallet } from '@reown/appkit-ui-react-native';
+import { ApiController } from '@traildao/appkit-core-react-native';
+import { ListWallet } from '@traildao/appkit-ui-react-native';
 import type { StyleProp, ViewStyle } from 'react-native';
 
 interface Props {

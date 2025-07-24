@@ -1,4 +1,4 @@
-import { AssetUtil, type CaipNetwork } from '@reown/appkit-core-react-native';
+import { AssetUtil, type CaipNetwork } from '@traildao/appkit-core-react-native';
 import {
   BorderRadius,
   FlexView,
@@ -7,7 +7,7 @@ import {
   Text,
   UiUtil,
   useTheme
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import { StyleSheet, type StyleProp, type ViewStyle } from 'react-native';
 
 export interface PreviewSendDetailsProps {

@@ -11,12 +11,12 @@ import {
   useTheme,
   Separator,
   BorderRadius
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import {
   OnRampController,
   type OnRampPaymentMethod,
   type OnRampQuote
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import { Quote, ITEM_HEIGHT as QUOTE_ITEM_HEIGHT } from './Quote';
 import { PaymentMethod } from './PaymentMethod';
 

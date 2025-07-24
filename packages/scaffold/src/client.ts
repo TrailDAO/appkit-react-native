@@ -28,14 +28,14 @@ import {
   StorageUtil,
   ThemeController,
   TransactionsController
-} from '@reown/appkit-core-react-native';
-import { SIWEController, type SIWEControllerClient } from '@reown/appkit-siwe-react-native';
+} from '@traildao/appkit-core-react-native';
+import { SIWEController, type SIWEControllerClient } from '@traildao/appkit-siwe-react-native';
 import {
   ConstantsUtil,
   ErrorUtil,
   type ThemeMode,
   type ThemeVariables
-} from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-common-react-native';
 import { Appearance } from 'react-native';
 
 // -- Types ---------------------------------------------------------------------

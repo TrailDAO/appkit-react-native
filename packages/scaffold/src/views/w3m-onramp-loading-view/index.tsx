@@ -6,14 +6,14 @@ import {
   OnRampController,
   OptionsController,
   EventsController
-} from '@reown/appkit-core-react-native';
-import { FlexView, DoubleImageLoader, IconLink, Button, Text } from '@reown/appkit-ui-react-native';
-import { StringUtil } from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-core-react-native';
+import { FlexView, DoubleImageLoader, IconLink, Button, Text } from '@traildao/appkit-ui-react-native';
 
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 import { ConnectingBody } from '../../partials/w3m-connecting-body';
 import { parseOnRampRedirectUrl, createEmptyOnRampResult } from './utils';
 import styles from './styles';
+import { StringUtil } from '@traildao/appkit-common-react-native';
 
 export function OnRampLoadingView() {
   const { maxWidth: width } = useCustomDimensions();

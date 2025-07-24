@@ -1,6 +1,6 @@
 import { subscribeKey as subKey } from 'valtio/utils';
 import { proxy, subscribe as sub } from 'valtio';
-import { NumberUtil } from '@reown/appkit-common-react-native';
+import { NumberUtil } from '@traildao/appkit-common-react-native';
 
 import { ConstantsUtil } from '../utils/ConstantsUtil';
 import { SwapApiUtil } from '../utils/SwapApiUtil';

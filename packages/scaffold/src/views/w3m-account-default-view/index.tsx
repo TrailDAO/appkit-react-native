@@ -19,7 +19,7 @@ import {
   ConstantsUtil,
   SwapController,
   OnRampController
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import {
   Avatar,
   Button,
@@ -29,7 +29,7 @@ import {
   UiUtil,
   Spacing,
   ListItem
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 
 import styles from './styles';

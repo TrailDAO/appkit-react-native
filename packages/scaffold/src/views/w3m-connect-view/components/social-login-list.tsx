@@ -1,12 +1,12 @@
 import { StyleSheet } from 'react-native';
-import { FlexView, ListSocial, LogoSelect, Spacing, Text } from '@reown/appkit-ui-react-native';
-import { type SocialProvider, StringUtil } from '@reown/appkit-common-react-native';
+import { FlexView, ListSocial, LogoSelect, Spacing, Text } from '@traildao/appkit-ui-react-native';
+import { type SocialProvider, StringUtil } from '@traildao/appkit-common-react-native';
 import {
   ConnectionController,
   EventsController,
   RouterController,
   WebviewController
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 
 export interface SocialLoginListProps {
   options: readonly SocialProvider[];

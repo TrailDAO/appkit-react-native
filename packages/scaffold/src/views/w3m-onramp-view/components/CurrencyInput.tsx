@@ -9,7 +9,7 @@ import {
   Separator,
   Spacing,
   BorderRadius
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import { useEffect, useState, useRef } from 'react';
 
 export interface InputTokenProps {

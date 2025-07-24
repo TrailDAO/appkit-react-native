@@ -1,7 +1,7 @@
 import { Linking } from 'react-native';
 import { useEffect, useState } from 'react';
 import { useSnapshot } from 'valtio';
-import { Button, FlexView, IconLink, Link, Text, Visual } from '@reown/appkit-ui-react-native';
+import { Button, FlexView, IconLink, Link, Text, Visual } from '@traildao/appkit-ui-react-native';
 import {
   AccountController,
   ConnectorController,
@@ -11,7 +11,7 @@ import {
   RouterController,
   SnackController,
   type AppKitFrameProvider
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import styles from './styles';
 
 export function UpgradeToSmartAccountView() {

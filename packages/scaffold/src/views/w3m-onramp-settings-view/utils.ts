@@ -4,7 +4,7 @@ import {
   OnRampController,
   type OnRampCountry,
   type OnRampFiatCurrency
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 
 // -------------------------- Types --------------------------
 type ModalType = 'country' | 'paymentCurrency';

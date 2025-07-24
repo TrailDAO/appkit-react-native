@@ -1,8 +1,8 @@
 import { useRef, useState } from 'react';
 import { TextInput, type StyleProp, type ViewStyle } from 'react-native';
-import { FlexView, Link, Text, useTheme, TokenButton } from '@reown/appkit-ui-react-native';
-import { NumberUtil, type Balance } from '@reown/appkit-common-react-native';
-import { ConstantsUtil, SendController } from '@reown/appkit-core-react-native';
+import { FlexView, Link, Text, useTheme, TokenButton } from '@traildao/appkit-ui-react-native';
+import { NumberUtil, type Balance } from '@traildao/appkit-common-react-native';
+import { ConstantsUtil, SendController } from '@traildao/appkit-core-react-native';
 
 import { getMaxAmount, getSendValue } from './utils';
 import styles from './styles';

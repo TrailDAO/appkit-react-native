@@ -11,7 +11,7 @@ import {
   AssetUtil,
   SnackController,
   ConstantsUtil
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import {
   Button,
   FlexView,
@@ -19,8 +19,8 @@ import {
   Text,
   TokenButton,
   useTheme
-} from '@reown/appkit-ui-react-native';
-import { NumberUtil, StringUtil } from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-ui-react-native';
+import { NumberUtil, StringUtil } from '@traildao/appkit-common-react-native';
 import { SelectorModal } from '../../partials/w3m-selector-modal';
 import { Currency, ITEM_HEIGHT as CURRENCY_ITEM_HEIGHT } from './components/Currency';
 import { getPurchaseCurrencies, getQuotesDebounced } from './utils';

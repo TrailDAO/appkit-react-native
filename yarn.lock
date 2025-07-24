@@ -7842,59 +7842,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reown/appkit-auth-ethers-react-native@workspace:packages/auth-ethers":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-auth-ethers-react-native@workspace:packages/auth-ethers"
-  dependencies:
-    "@reown/appkit-common-react-native": "npm:1.2.6"
-    "@reown/appkit-wallet-react-native": "npm:1.2.6"
-  peerDependencies:
-    ethers: ">=5"
-  languageName: unknown
-  linkType: soft
-
-"@reown/appkit-auth-wagmi-react-native@npm:1.2.6, @reown/appkit-auth-wagmi-react-native@workspace:packages/auth-wagmi":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-auth-wagmi-react-native@workspace:packages/auth-wagmi"
+"@reown/appkit-auth-wagmi-react-native@npm:1.2.6":
+  version: 1.2.6
+  resolution: "@reown/appkit-auth-wagmi-react-native@npm:1.2.6"
   dependencies:
     "@reown/appkit-common-react-native": "npm:1.2.6"
     "@reown/appkit-core-react-native": "npm:1.2.6"
     "@reown/appkit-wallet-react-native": "npm:1.2.6"
   peerDependencies:
     wagmi: ">=2"
-  languageName: unknown
-  linkType: soft
+  checksum: d0c5767ad86457ecffe198328ae20dacecb13dcc35f8a04913f41842de61cf7219d9dcd33db893a95d6adf72d405e55335b3ab8a39dea776f4ace1f5b20f2c80
+  languageName: node
+  linkType: hard
 
-"@reown/appkit-coinbase-ethers-react-native@workspace:packages/coinbase-ethers":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-coinbase-ethers-react-native@workspace:packages/coinbase-ethers"
-  dependencies:
-    "@reown/appkit-common-react-native": "npm:1.2.6"
-  peerDependencies:
-    "@coinbase/wallet-mobile-sdk": ">=1.0.10"
-    ethers: ">=5"
-  languageName: unknown
-  linkType: soft
-
-"@reown/appkit-coinbase-wagmi-react-native@workspace:packages/coinbase-wagmi":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-coinbase-wagmi-react-native@workspace:packages/coinbase-wagmi"
-  dependencies:
-    "@reown/appkit-common-react-native": "npm:1.2.6"
-  peerDependencies:
-    "@coinbase/wallet-mobile-sdk": ">=1.0.10"
-    wagmi: ">=2"
-  languageName: unknown
-  linkType: soft
-
-"@reown/appkit-common-react-native@npm:1.2.6, @reown/appkit-common-react-native@workspace:packages/common":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-common-react-native@workspace:packages/common"
+"@reown/appkit-common-react-native@npm:1.2.6":
+  version: 1.2.6
+  resolution: "@reown/appkit-common-react-native@npm:1.2.6"
   dependencies:
     bignumber.js: "npm:9.1.2"
     dayjs: "npm:1.11.10"
-  languageName: unknown
-  linkType: soft
+  checksum: b3db3e92e7af7d7eb0e82437da8ececf90a80b1efdc68b59ea7b3fa1de999cf3db3608fe06d7eb42ad8d36db604468e634d21937edb4684e920d746a14f58c94
+  languageName: node
+  linkType: hard
 
 "@reown/appkit-common@npm:1.7.8":
   version: 1.7.8
@@ -7920,62 +7889,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reown/appkit-core-react-native@npm:1.2.6, @reown/appkit-core-react-native@workspace:packages/core":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-core-react-native@workspace:packages/core"
+"@reown/appkit-core-react-native@npm:1.2.6":
+  version: 1.2.6
+  resolution: "@reown/appkit-core-react-native@npm:1.2.6"
   dependencies:
     "@reown/appkit-common-react-native": "npm:1.2.6"
-    countries-and-timezones: "npm:3.7.2"
     valtio: "npm:1.13.2"
   peerDependencies:
     "@react-native-async-storage/async-storage": ">=1.17.0"
     "@walletconnect/react-native-compat": ">=2.13.1"
     react: ">=17"
     react-native: ">=0.68.5"
-  languageName: unknown
-  linkType: soft
-
-"@reown/appkit-ethers-react-native@workspace:packages/ethers":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-ethers-react-native@workspace:packages/ethers"
-  dependencies:
-    "@reown/appkit-common-react-native": "npm:1.2.6"
-    "@reown/appkit-scaffold-react-native": "npm:1.2.6"
-    "@reown/appkit-scaffold-utils-react-native": "npm:1.2.6"
-    "@reown/appkit-siwe-react-native": "npm:1.2.6"
-    "@walletconnect/ethereum-provider": "npm:2.21.5"
-    ethers: "npm:6.10.0"
-  peerDependencies:
-    "@react-native-async-storage/async-storage": ">=1.17.0"
-    "@react-native-community/netinfo": "*"
-    "@walletconnect/react-native-compat": ">=2.13.1"
-    ethers: ">=6.0.0"
-    react: ">=17"
-    react-native: ">=0.68.5"
-    react-native-get-random-values: "*"
-  languageName: unknown
-  linkType: soft
-
-"@reown/appkit-ethers5-react-native@workspace:packages/ethers5":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-ethers5-react-native@workspace:packages/ethers5"
-  dependencies:
-    "@reown/appkit-common-react-native": "npm:1.2.6"
-    "@reown/appkit-scaffold-react-native": "npm:1.2.6"
-    "@reown/appkit-scaffold-utils-react-native": "npm:1.2.6"
-    "@reown/appkit-siwe-react-native": "npm:1.2.6"
-    "@walletconnect/ethereum-provider": "npm:2.21.5"
-    ethers: "npm:5.7.2"
-  peerDependencies:
-    "@react-native-async-storage/async-storage": ">=1.17.0"
-    "@react-native-community/netinfo": "*"
-    "@walletconnect/react-native-compat": ">=2.13.1"
-    ethers: ">=5.7.2 <6.0.0"
-    react: ">=17"
-    react-native: ">=0.68.5"
-    react-native-get-random-values: "*"
-  languageName: unknown
-  linkType: soft
+  checksum: ffbe28c9fcd1ae3123fcb29f91bb87981a02c42b26132d12c01da62575edd172959ddbc0135c5569f766f184c89d611cace8f328e28559b1a514b343bdc3a65b
+  languageName: node
+  linkType: hard
 
 "@reown/appkit-pay@npm:1.7.8":
   version: 1.7.8
@@ -8000,9 +7927,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reown/appkit-scaffold-react-native@npm:1.2.6, @reown/appkit-scaffold-react-native@workspace:packages/scaffold":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-scaffold-react-native@workspace:packages/scaffold"
+"@reown/appkit-scaffold-react-native@npm:1.2.6":
+  version: 1.2.6
+  resolution: "@reown/appkit-scaffold-react-native@npm:1.2.6"
   dependencies:
     "@reown/appkit-common-react-native": "npm:1.2.6"
     "@reown/appkit-core-react-native": "npm:1.2.6"
@@ -8011,8 +7938,9 @@ __metadata:
   peerDependencies:
     react: ">=17"
     react-native: ">=0.68.5"
-  languageName: unknown
-  linkType: soft
+  checksum: f9aea5b602a4088b74ebcb8149b853b3539b91d1be9feb5e79ac6206725e243461e80366783eedeccc5c678e782dfa299a013c2672c79808500ff57d027a8e05
+  languageName: node
+  linkType: hard
 
 "@reown/appkit-scaffold-ui@npm:1.7.8":
   version: 1.7.8
@@ -8028,18 +7956,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reown/appkit-scaffold-utils-react-native@npm:1.2.6, @reown/appkit-scaffold-utils-react-native@workspace:packages/scaffold-utils":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-scaffold-utils-react-native@workspace:packages/scaffold-utils"
+"@reown/appkit-scaffold-utils-react-native@npm:1.2.6":
+  version: 1.2.6
+  resolution: "@reown/appkit-scaffold-utils-react-native@npm:1.2.6"
   dependencies:
     "@reown/appkit-common-react-native": "npm:1.2.6"
     "@reown/appkit-scaffold-react-native": "npm:1.2.6"
-  languageName: unknown
-  linkType: soft
+  checksum: bd6000415ac5d9db9be200e352cdd5aec122ae73ce999200ac90efd73575388c2fa69d3fc4191a430fd7e4b976a2bd91c60f891337c3c565ff4e9f1e4dcf8ed4
+  languageName: node
+  linkType: hard
 
-"@reown/appkit-siwe-react-native@npm:1.2.6, @reown/appkit-siwe-react-native@workspace:packages/siwe":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-siwe-react-native@workspace:packages/siwe"
+"@reown/appkit-siwe-react-native@npm:1.2.6":
+  version: 1.2.6
+  resolution: "@reown/appkit-siwe-react-native@npm:1.2.6"
   dependencies:
     "@reown/appkit-common-react-native": "npm:1.2.6"
     "@reown/appkit-core-react-native": "npm:1.2.6"
@@ -8047,12 +7976,13 @@ __metadata:
     valtio: "npm:1.13.2"
   peerDependencies:
     "@walletconnect/utils": ">=2.16.1"
-  languageName: unknown
-  linkType: soft
+  checksum: a6fc40cdfae86d7928c2e067f9f72873c182595b97c3a44252b273c94965e5f998429d28cd918b144dbfb50cb16d2bed34a709d6c319b98697b3735afda4eace
+  languageName: node
+  linkType: hard
 
-"@reown/appkit-ui-react-native@npm:1.2.6, @reown/appkit-ui-react-native@workspace:packages/ui":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-ui-react-native@workspace:packages/ui"
+"@reown/appkit-ui-react-native@npm:1.2.6":
+  version: 1.2.6
+  resolution: "@reown/appkit-ui-react-native@npm:1.2.6"
   dependencies:
     polished: "npm:4.3.1"
     qrcode: "npm:1.5.3"
@@ -8060,8 +7990,9 @@ __metadata:
     react: ">=17"
     react-native: ">=0.68.5"
     react-native-svg: ">=13"
-  languageName: unknown
-  linkType: soft
+  checksum: 54d6a3d7ea259fa0d2a522b843944303d1827756a6974c94d0a6000e26de38e1c3b295bc5d8c834a3aaa0ca7e4d3047da765442e3b5689ad43f4a7733608fad0
+  languageName: node
+  linkType: hard
 
 "@reown/appkit-ui@npm:1.7.8":
   version: 1.7.8
@@ -8094,9 +8025,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reown/appkit-wagmi-react-native@npm:1.2.6, @reown/appkit-wagmi-react-native@workspace:packages/wagmi":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-wagmi-react-native@workspace:packages/wagmi"
+"@reown/appkit-wagmi-react-native@npm:1.2.6":
+  version: 1.2.6
+  resolution: "@reown/appkit-wagmi-react-native@npm:1.2.6"
   dependencies:
     "@reown/appkit-common-react-native": "npm:1.2.6"
     "@reown/appkit-scaffold-react-native": "npm:1.2.6"
@@ -8111,12 +8042,13 @@ __metadata:
     react-native-get-random-values: "*"
     viem: ">=2.21.4"
     wagmi: ">=2.12.10"
-  languageName: unknown
-  linkType: soft
+  checksum: 67169ef3532718106cca65faf4c964dc70cb017f5bc17add5afc3df6066a86c7b58483158c15745f126994bdd27d0af6d7b7d1a46b06ad93ed7e2379f3fd97d8
+  languageName: node
+  linkType: hard
 
-"@reown/appkit-wallet-react-native@npm:1.2.6, @reown/appkit-wallet-react-native@workspace:packages/wallet":
-  version: 0.0.0-use.local
-  resolution: "@reown/appkit-wallet-react-native@workspace:packages/wallet"
+"@reown/appkit-wallet-react-native@npm:1.2.6":
+  version: 1.2.6
+  resolution: "@reown/appkit-wallet-react-native@npm:1.2.6"
   dependencies:
     "@reown/appkit-core-react-native": "npm:1.2.6"
     "@reown/appkit-ui-react-native": "npm:1.2.6"
@@ -8124,8 +8056,9 @@ __metadata:
   peerDependencies:
     "@react-native-async-storage/async-storage": ">=1.17.0"
     react-native-webview: ">=11"
-  languageName: unknown
-  linkType: soft
+  checksum: c45de9ac8bcfc1c4c0c718516d6210a9fb85fb6b4da77bcfbe0a4e16c14ffc1975d6dcbbf8da6dc38a60b78fe5ab733436d220d8015c393e2d61714f68a713ec
+  languageName: node
+  linkType: hard
 
 "@reown/appkit-wallet@npm:1.7.8":
   version: 1.7.8
@@ -9084,6 +9017,199 @@ __metadata:
   checksum: 68a0c2aa28a3c8e6eb05cafee29705438d7d8a9427423ce5064d44f19c29e89b5636de46dd2f28620fb10abba75c67130185bbc3aa23ac1163a227a5f36641e1
   languageName: node
   linkType: hard
+
+"@traildao/appkit-auth-ethers-react-native@workspace:packages/auth-ethers":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-auth-ethers-react-native@workspace:packages/auth-ethers"
+  dependencies:
+    "@traildao/appkit-common-react-native": "npm:1.2.6"
+    "@traildao/appkit-wallet-react-native": "npm:1.2.6"
+  peerDependencies:
+    ethers: ">=5"
+  languageName: unknown
+  linkType: soft
+
+"@traildao/appkit-auth-wagmi-react-native@workspace:packages/auth-wagmi":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-auth-wagmi-react-native@workspace:packages/auth-wagmi"
+  dependencies:
+    "@traildao/appkit-common-react-native": "npm:1.2.6"
+    "@traildao/appkit-core-react-native": "npm:1.2.6"
+    "@traildao/appkit-wallet-react-native": "npm:1.2.6"
+  peerDependencies:
+    wagmi: ">=2"
+  languageName: unknown
+  linkType: soft
+
+"@traildao/appkit-coinbase-ethers-react-native@workspace:packages/coinbase-ethers":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-coinbase-ethers-react-native@workspace:packages/coinbase-ethers"
+  dependencies:
+    "@traildao/appkit-common-react-native": "npm:1.2.6"
+  peerDependencies:
+    "@coinbase/wallet-mobile-sdk": ">=1.0.10"
+    ethers: ">=5"
+  languageName: unknown
+  linkType: soft
+
+"@traildao/appkit-coinbase-wagmi-react-native@workspace:packages/coinbase-wagmi":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-coinbase-wagmi-react-native@workspace:packages/coinbase-wagmi"
+  dependencies:
+    "@traildao/appkit-common-react-native": "npm:1.2.6"
+  peerDependencies:
+    "@coinbase/wallet-mobile-sdk": ">=1.0.10"
+    wagmi: ">=2"
+  languageName: unknown
+  linkType: soft
+
+"@traildao/appkit-common-react-native@npm:1.2.6, @traildao/appkit-common-react-native@workspace:packages/common":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-common-react-native@workspace:packages/common"
+  dependencies:
+    bignumber.js: "npm:9.1.2"
+    dayjs: "npm:1.11.10"
+  languageName: unknown
+  linkType: soft
+
+"@traildao/appkit-core-react-native@npm:1.2.6, @traildao/appkit-core-react-native@workspace:packages/core":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-core-react-native@workspace:packages/core"
+  dependencies:
+    "@traildao/appkit-common-react-native": "npm:1.2.6"
+    countries-and-timezones: "npm:3.7.2"
+    valtio: "npm:1.13.2"
+  peerDependencies:
+    "@react-native-async-storage/async-storage": ">=1.17.0"
+    "@walletconnect/react-native-compat": ">=2.13.1"
+    react: ">=17"
+    react-native: ">=0.68.5"
+  languageName: unknown
+  linkType: soft
+
+"@traildao/appkit-ethers-react-native@workspace:packages/ethers":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-ethers-react-native@workspace:packages/ethers"
+  dependencies:
+    "@traildao/appkit-common-react-native": "npm:1.2.6"
+    "@traildao/appkit-scaffold-react-native": "npm:1.2.6"
+    "@traildao/appkit-scaffold-utils-react-native": "npm:1.2.6"
+    "@traildao/appkit-siwe-react-native": "npm:1.2.6"
+    "@walletconnect/ethereum-provider": "npm:2.21.5"
+    ethers: "npm:6.10.0"
+  peerDependencies:
+    "@react-native-async-storage/async-storage": ">=1.17.0"
+    "@react-native-community/netinfo": "*"
+    "@walletconnect/react-native-compat": ">=2.13.1"
+    ethers: ">=6.0.0"
+    react: ">=17"
+    react-native: ">=0.68.5"
+    react-native-get-random-values: "*"
+  languageName: unknown
+  linkType: soft
+
+"@traildao/appkit-ethers5-react-native@workspace:packages/ethers5":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-ethers5-react-native@workspace:packages/ethers5"
+  dependencies:
+    "@traildao/appkit-common-react-native": "npm:1.2.6"
+    "@traildao/appkit-scaffold-react-native": "npm:1.2.6"
+    "@traildao/appkit-scaffold-utils-react-native": "npm:1.2.6"
+    "@traildao/appkit-siwe-react-native": "npm:1.2.6"
+    "@walletconnect/ethereum-provider": "npm:2.21.5"
+    ethers: "npm:5.7.2"
+  peerDependencies:
+    "@react-native-async-storage/async-storage": ">=1.17.0"
+    "@react-native-community/netinfo": "*"
+    "@walletconnect/react-native-compat": ">=2.13.1"
+    ethers: ">=5.7.2 <6.0.0"
+    react: ">=17"
+    react-native: ">=0.68.5"
+    react-native-get-random-values: "*"
+  languageName: unknown
+  linkType: soft
+
+"@traildao/appkit-scaffold-react-native@npm:1.2.6, @traildao/appkit-scaffold-react-native@workspace:packages/scaffold":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-scaffold-react-native@workspace:packages/scaffold"
+  dependencies:
+    "@traildao/appkit-common-react-native": "npm:1.2.6"
+    "@traildao/appkit-core-react-native": "npm:1.2.6"
+    "@traildao/appkit-siwe-react-native": "npm:1.2.6"
+    "@traildao/appkit-ui-react-native": "npm:1.2.6"
+  peerDependencies:
+    react: ">=17"
+    react-native: ">=0.68.5"
+  languageName: unknown
+  linkType: soft
+
+"@traildao/appkit-scaffold-utils-react-native@npm:1.2.6, @traildao/appkit-scaffold-utils-react-native@workspace:packages/scaffold-utils":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-scaffold-utils-react-native@workspace:packages/scaffold-utils"
+  dependencies:
+    "@traildao/appkit-common-react-native": "npm:1.2.6"
+    "@traildao/appkit-scaffold-react-native": "npm:1.2.6"
+  languageName: unknown
+  linkType: soft
+
+"@traildao/appkit-siwe-react-native@npm:1.2.6, @traildao/appkit-siwe-react-native@workspace:packages/siwe":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-siwe-react-native@workspace:packages/siwe"
+  dependencies:
+    "@traildao/appkit-common-react-native": "npm:1.2.6"
+    "@traildao/appkit-core-react-native": "npm:1.2.6"
+    "@traildao/appkit-ui-react-native": "npm:1.2.6"
+    valtio: "npm:1.13.2"
+  peerDependencies:
+    "@walletconnect/utils": ">=2.16.1"
+  languageName: unknown
+  linkType: soft
+
+"@traildao/appkit-ui-react-native@npm:1.2.6, @traildao/appkit-ui-react-native@workspace:packages/ui":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-ui-react-native@workspace:packages/ui"
+  dependencies:
+    polished: "npm:4.3.1"
+    qrcode: "npm:1.5.3"
+  peerDependencies:
+    react: ">=17"
+    react-native: ">=0.68.5"
+    react-native-svg: ">=13"
+  languageName: unknown
+  linkType: soft
+
+"@traildao/appkit-wagmi-react-native@workspace:packages/wagmi":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-wagmi-react-native@workspace:packages/wagmi"
+  dependencies:
+    "@traildao/appkit-common-react-native": "npm:1.2.6"
+    "@traildao/appkit-scaffold-react-native": "npm:1.2.6"
+    "@traildao/appkit-scaffold-utils-react-native": "npm:1.2.6"
+    "@traildao/appkit-siwe-react-native": "npm:1.2.6"
+  peerDependencies:
+    "@react-native-async-storage/async-storage": ">=1.17.0"
+    "@react-native-community/netinfo": "*"
+    "@walletconnect/react-native-compat": ">=2.13.1"
+    react: ">=17"
+    react-native: ">=0.68.5"
+    react-native-get-random-values: "*"
+    viem: ">=2.21.4"
+    wagmi: ">=2.12.10"
+  languageName: unknown
+  linkType: soft
+
+"@traildao/appkit-wallet-react-native@npm:1.2.6, @traildao/appkit-wallet-react-native@workspace:packages/wallet":
+  version: 0.0.0-use.local
+  resolution: "@traildao/appkit-wallet-react-native@workspace:packages/wallet"
+  dependencies:
+    "@traildao/appkit-core-react-native": "npm:1.2.6"
+    "@traildao/appkit-ui-react-native": "npm:1.2.6"
+    zod: "npm:3.22.4"
+  peerDependencies:
+    "@react-native-async-storage/async-storage": ">=1.17.0"
+    react-native-webview: ">=11"
+  languageName: unknown
+  linkType: soft
 
 "@tsconfig/node10@npm:^1.0.7":
   version: 1.0.9

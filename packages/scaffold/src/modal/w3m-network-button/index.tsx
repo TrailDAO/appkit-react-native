@@ -8,8 +8,8 @@ import {
   ModalController,
   NetworkController,
   ThemeController
-} from '@reown/appkit-core-react-native';
-import { NetworkButton as NetworkButtonUI, ThemeProvider } from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-core-react-native';
+import { NetworkButton as NetworkButtonUI, ThemeProvider } from '@traildao/appkit-ui-react-native';
 
 export interface NetworkButtonProps {
   disabled?: boolean;

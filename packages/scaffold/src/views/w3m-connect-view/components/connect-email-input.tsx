@@ -1,6 +1,6 @@
 import { useSnapshot } from 'valtio';
 import { useState } from 'react';
-import { EmailInput, FlexView } from '@reown/appkit-ui-react-native';
+import { EmailInput, FlexView } from '@traildao/appkit-ui-react-native';
 import {
   ConnectorController,
   CoreHelperUtil,
@@ -8,7 +8,7 @@ import {
   RouterController,
   SnackController,
   type AppKitFrameProvider
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 
 interface Props {
   loading?: boolean;

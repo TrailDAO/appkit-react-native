@@ -1,5 +1,5 @@
-import { AppKitFrameProvider, type AppKitFrameTypes } from '@reown/appkit-wallet-react-native';
-import { ConstantsUtil, PresetsUtil } from '@reown/appkit-common-react-native';
+import { AppKitFrameProvider, type AppKitFrameTypes } from '@traildao/appkit-wallet-react-native';
+import { ConstantsUtil, PresetsUtil } from '@traildao/appkit-common-react-native';
 interface AuthProviderProps {
   projectId: string;
   metadata: AppKitFrameTypes.Metadata;

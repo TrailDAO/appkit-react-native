@@ -1,15 +1,15 @@
 import { useState } from 'react';
 import { useSnapshot } from 'valtio';
 import { ScrollView } from 'react-native';
-import { FlexView, InputText, ListToken, Text } from '@reown/appkit-ui-react-native';
+import { FlexView, InputText, ListToken, Text } from '@traildao/appkit-ui-react-native';
 import {
   AccountController,
   AssetUtil,
   NetworkController,
   RouterController,
   SendController
-} from '@reown/appkit-core-react-native';
-import type { Balance } from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-core-react-native';
+import type { Balance } from '@traildao/appkit-common-react-native';
 
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 import { Placeholder } from '../../partials/w3m-placeholder';

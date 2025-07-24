@@ -2,7 +2,7 @@ import {
   OnRampController,
   NetworkController,
   CoreHelperUtil
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 
 // -------------------------- Utils --------------------------
 export const getPurchaseCurrencies = (searchValue?: string, filterSelected?: boolean) => {

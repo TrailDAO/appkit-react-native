@@ -1,6 +1,6 @@
 import { useEffect, useState, useSyncExternalStore } from 'react';
 import { useSnapshot } from 'valtio';
-import { EthersStoreUtil, type Provider } from '@reown/appkit-scaffold-utils-react-native';
+import { EthersStoreUtil, type Provider } from '@traildao/appkit-scaffold-utils-react-native';
 
 export {
   AccountButton,
@@ -8,9 +8,9 @@ export {
   ConnectButton,
   NetworkButton,
   AppKit
-} from '@reown/appkit-scaffold-react-native';
-import type { EventName, EventsControllerState } from '@reown/appkit-scaffold-react-native';
-import { ConstantsUtil } from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-scaffold-react-native';
+import type { EventName, EventsControllerState } from '@traildao/appkit-scaffold-react-native';
+import { ConstantsUtil } from '@traildao/appkit-common-react-native';
 export { defaultConfig } from './utils/defaultConfig';
 
 import { AppKit, type AppKitOptions } from './client';

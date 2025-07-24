@@ -40,8 +40,8 @@ import {
   type WriteContractArgs,
   type AppKitFrameProvider,
   type EstimateGasTransactionArgs
-} from '@reown/appkit-scaffold-react-native';
-import { HelpersUtil, StorageUtil } from '@reown/appkit-scaffold-utils-react-native';
+} from '@traildao/appkit-scaffold-react-native';
+import { HelpersUtil, StorageUtil } from '@traildao/appkit-scaffold-utils-react-native';
 import {
   NetworkUtil,
   NamesUtil,
@@ -49,13 +49,13 @@ import {
   ConstantsUtil,
   PresetsUtil,
   type ConnectorType
-} from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-common-react-native';
 import {
   SIWEController,
   getDidChainId,
   getDidAddress,
   type AppKitSIWEClient
-} from '@reown/appkit-siwe-react-native';
+} from '@traildao/appkit-siwe-react-native';
 import {
   getCaipDefaultChain,
   getAuthCaipNetworks,

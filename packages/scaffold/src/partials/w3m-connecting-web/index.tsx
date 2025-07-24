@@ -9,7 +9,7 @@ import {
   CoreHelperUtil,
   OptionsController,
   EventsController
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import {
   Button,
   FlexView,
@@ -17,7 +17,7 @@ import {
   WalletImage,
   Link,
   IconBox
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 
 import { UiUtil } from '../../utils/UiUtil';
 import { ConnectingBody, getMessage } from '../w3m-connecting-body';

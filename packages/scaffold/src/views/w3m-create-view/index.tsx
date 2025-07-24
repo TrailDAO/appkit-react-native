@@ -1,11 +1,11 @@
 import { Platform, ScrollView } from 'react-native';
 import { useSnapshot } from 'valtio';
-import { FlexView, Spacing } from '@reown/appkit-ui-react-native';
+import { FlexView, Spacing } from '@traildao/appkit-ui-react-native';
 import { ConnectEmailInput } from '../w3m-connect-view/components/connect-email-input';
 import { SocialLoginList } from '../w3m-connect-view/components/social-login-list';
 import { WalletGuide } from '../w3m-connect-view/components/wallet-guide';
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
-import { ConnectorController, OptionsController } from '@reown/appkit-core-react-native';
+import { ConnectorController, OptionsController } from '@traildao/appkit-core-react-native';
 import { useKeyboard } from '../../hooks/useKeyboard';
 
 export function CreateView() {

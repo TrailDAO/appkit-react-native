@@ -1,7 +1,7 @@
 import {
   type OnRampFiatCurrency,
   type OnRampCryptoCurrency
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import {
   Pressable,
   FlexView,
@@ -10,7 +10,7 @@ import {
   useTheme,
   Icon,
   BorderRadius
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import { StyleSheet, Image } from 'react-native';
 
 export const ITEM_HEIGHT = 60;

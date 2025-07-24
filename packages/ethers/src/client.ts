@@ -27,7 +27,7 @@ import {
   type WriteContractArgs,
   type AppKitFrameAccountType,
   type EstimateGasTransactionArgs
-} from '@reown/appkit-scaffold-react-native';
+} from '@traildao/appkit-scaffold-react-native';
 import {
   erc20ABI,
   ErrorUtil,
@@ -35,7 +35,7 @@ import {
   NetworkUtil,
   PresetsUtil,
   ConstantsUtil
-} from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-common-react-native';
 import {
   HelpersUtil,
   StorageUtil,
@@ -50,13 +50,13 @@ import {
   type EthersStoreUtilState,
   type CombinedProviderType,
   type AppKitFrameProvider
-} from '@reown/appkit-scaffold-utils-react-native';
+} from '@traildao/appkit-scaffold-utils-react-native';
 import {
   type AppKitSIWEClient,
   SIWEController,
   getDidChainId,
   getDidAddress
-} from '@reown/appkit-siwe-react-native';
+} from '@traildao/appkit-siwe-react-native';
 import EthereumProvider, {
   type EthereumProviderOptions,
   OPTIONAL_METHODS

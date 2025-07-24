@@ -8,7 +8,7 @@ import {
   Spacing,
   Text,
   UiUtil
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import {
   AccountController,
   ApiController,
@@ -17,7 +17,7 @@ import {
   OptionsController,
   RouterController,
   SnackController
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 
 export function WalletReceiveView() {

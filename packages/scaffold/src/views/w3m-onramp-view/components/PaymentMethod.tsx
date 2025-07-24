@@ -1,5 +1,5 @@
 import { useSnapshot } from 'valtio';
-import { ThemeController, type OnRampPaymentMethod } from '@reown/appkit-core-react-native';
+import { ThemeController, type OnRampPaymentMethod } from '@traildao/appkit-core-react-native';
 import {
   Pressable,
   FlexView,
@@ -9,7 +9,7 @@ import {
   Image,
   BorderRadius,
   IconBox
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import { StyleSheet } from 'react-native';
 
 export const ITEM_SIZE = 100;

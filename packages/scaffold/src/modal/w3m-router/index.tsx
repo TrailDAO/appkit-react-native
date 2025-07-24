@@ -1,6 +1,6 @@
 import { useLayoutEffect, useMemo } from 'react';
 import { useSnapshot } from 'valtio';
-import { RouterController } from '@reown/appkit-core-react-native';
+import { RouterController } from '@traildao/appkit-core-react-native';
 
 import { AccountDefaultView } from '../../views/w3m-account-default-view';
 import { AccountView } from '../../views/w3m-account-view';
@@ -12,7 +12,7 @@ import { ConnectingExternalView } from '../../views/w3m-connecting-external-view
 import { ConnectingFarcasterView } from '../../views/w3m-connecting-farcaster-view';
 import { ConnectingSocialView } from '../../views/w3m-connecting-social-view';
 import { CreateView } from '../../views/w3m-create-view';
-import { ConnectingSiweView } from '@reown/appkit-siwe-react-native';
+import { ConnectingSiweView } from '@traildao/appkit-siwe-react-native';
 import { EmailVerifyOtpView } from '../../views/w3m-email-verify-otp-view';
 import { EmailVerifyDeviceView } from '../../views/w3m-email-verify-device-view';
 import { GetWalletView } from '../../views/w3m-get-wallet-view';

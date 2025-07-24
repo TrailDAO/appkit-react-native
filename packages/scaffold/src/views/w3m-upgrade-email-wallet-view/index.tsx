@@ -1,7 +1,7 @@
 import { useSnapshot } from 'valtio';
 import { Linking, StyleSheet } from 'react-native';
-import { Chip, FlexView, Spacing, Text } from '@reown/appkit-ui-react-native';
-import { ConnectorController, type AppKitFrameProvider } from '@reown/appkit-core-react-native';
+import { Chip, FlexView, Spacing, Text } from '@traildao/appkit-ui-react-native';
+import { ConnectorController, type AppKitFrameProvider } from '@traildao/appkit-core-react-native';
 
 export function UpgradeEmailWalletView() {
   const { connectors } = useSnapshot(ConnectorController.state);

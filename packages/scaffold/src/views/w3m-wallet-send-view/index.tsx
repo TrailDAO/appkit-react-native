@@ -7,8 +7,8 @@ import {
   RouterController,
   SendController,
   SwapController
-} from '@reown/appkit-core-react-native';
-import { Button, FlexView, IconBox, Spacing } from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-core-react-native';
+import { Button, FlexView, IconBox, Spacing } from '@traildao/appkit-ui-react-native';
 import { SendInputToken } from '../../partials/w3m-send-input-token';
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 import { useKeyboard } from '../../hooks/useKeyboard';

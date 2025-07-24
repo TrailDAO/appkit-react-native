@@ -8,7 +8,7 @@ import {
   OptionsController,
   SnackController,
   type AppKitFrameProvider
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import {
   FlexView,
   LoadingThumbnail,
@@ -16,7 +16,7 @@ import {
   Logo,
   Text,
   Link
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 import styles from './styles';

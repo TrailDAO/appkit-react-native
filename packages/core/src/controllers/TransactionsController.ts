@@ -1,4 +1,4 @@
-import type { Transaction } from '@reown/appkit-common-react-native';
+import type { Transaction } from '@traildao/appkit-common-react-native';
 import { proxy, subscribe as sub } from 'valtio';
 import { OptionsController } from './OptionsController';
 import { EventsController } from './EventsController';

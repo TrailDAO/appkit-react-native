@@ -8,8 +8,8 @@ import {
   EventsController,
   RouterController,
   WebviewController
-} from '@reown/appkit-core-react-native';
-import { useTheme, BorderRadius, IconLink, Spacing } from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-core-react-native';
+import { useTheme, BorderRadius, IconLink, Spacing } from '@traildao/appkit-ui-react-native';
 import type { AppKitFrameProvider } from './AppKitFrameProvider';
 import { AppKitFrameConstants } from './AppKitFrameConstants';
 

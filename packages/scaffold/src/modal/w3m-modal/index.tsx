@@ -2,7 +2,7 @@ import { useSnapshot } from 'valtio';
 import { useCallback, useEffect } from 'react';
 import { useWindowDimensions, StatusBar } from 'react-native';
 import Modal from 'react-native-modal';
-import { Card, ThemeProvider } from '@reown/appkit-ui-react-native';
+import { Card, ThemeProvider } from '@traildao/appkit-ui-react-native';
 import {
   AccountController,
   ApiController,
@@ -17,8 +17,8 @@ import {
   type CaipAddress,
   type AppKitFrameProvider,
   ThemeController
-} from '@reown/appkit-core-react-native';
-import { SIWEController } from '@reown/appkit-siwe-react-native';
+} from '@traildao/appkit-core-react-native';
+import { SIWEController } from '@traildao/appkit-siwe-react-native';
 
 import { AppKitRouter } from '../w3m-router';
 import { Header } from '../../partials/w3m-header';

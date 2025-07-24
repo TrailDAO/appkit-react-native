@@ -12,7 +12,7 @@ import {
   DateUtil,
   type SocialProvider,
   type ConnectorType
-} from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-common-react-native';
 
 // -- Helpers -----------------------------------------------------------------
 const WC_DEEPLINK = 'WALLETCONNECT_DEEPLINK_CHOICE';

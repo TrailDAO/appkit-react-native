@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { TextInput } from 'react-native';
-import { FlexView, useTheme } from '@reown/appkit-ui-react-native';
-import { ConnectionController, SendController } from '@reown/appkit-core-react-native';
+import { FlexView, useTheme } from '@traildao/appkit-ui-react-native';
+import { ConnectionController, SendController } from '@traildao/appkit-core-react-native';
 
 import { useDebounceCallback } from '../../hooks/useDebounceCallback';
 import styles from './styles';

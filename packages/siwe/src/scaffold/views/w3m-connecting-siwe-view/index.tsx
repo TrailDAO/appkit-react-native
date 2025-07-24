@@ -6,7 +6,7 @@ import {
   FlexView,
   IconLink,
   Text
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import {
   AccountController,
   AssetUtil,
@@ -17,7 +17,7 @@ import {
   OptionsController,
   RouterController,
   SnackController
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 
 import { useState } from 'react';
 import { SIWEController } from '../../../controller/SIWEController';

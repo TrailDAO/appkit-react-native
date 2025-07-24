@@ -7,9 +7,9 @@ import {
   NetworkController,
   RouterController,
   SwapController
-} from '@reown/appkit-core-react-native';
-import { Button, FlexView, IconLink, Spacing, useTheme } from '@reown/appkit-ui-react-native';
-import { NumberUtil } from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-core-react-native';
+import { Button, FlexView, IconLink, Spacing, useTheme } from '@traildao/appkit-ui-react-native';
+import { NumberUtil } from '@traildao/appkit-common-react-native';
 
 import { useKeyboard } from '../../hooks/useKeyboard';
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';

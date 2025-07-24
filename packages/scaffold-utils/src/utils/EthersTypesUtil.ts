@@ -1,5 +1,5 @@
-import type { AppKitFrameProvider } from '@reown/appkit-core-react-native';
-export type { AppKitFrameProvider } from '@reown/appkit-core-react-native';
+import type { AppKitFrameProvider } from '@traildao/appkit-core-react-native';
+export type { AppKitFrameProvider } from '@traildao/appkit-core-react-native';
 
 export interface IEthersConfig {
   providers: ProviderType;

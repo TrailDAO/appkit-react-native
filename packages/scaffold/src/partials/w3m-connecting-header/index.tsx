@@ -1,5 +1,5 @@
-import type { Platform } from '@reown/appkit-core-react-native';
-import { FlexView, Tabs, type IconType } from '@reown/appkit-ui-react-native';
+import type { Platform } from '@traildao/appkit-core-react-native';
+import { FlexView, Tabs, type IconType } from '@traildao/appkit-ui-react-native';
 import { StyleSheet } from 'react-native';
 
 export interface ConnectingHeaderProps {

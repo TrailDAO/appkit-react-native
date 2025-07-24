@@ -1,6 +1,6 @@
 import { useColorScheme } from 'react-native';
 import { createContext, useContext, type ReactNode } from 'react';
-import type { ThemeMode, ThemeVariables } from '@reown/appkit-common-react-native';
+import type { ThemeMode, ThemeVariables } from '@traildao/appkit-common-react-native';
 
 import { DarkTheme, LightTheme, getAccentColors } from '../utils/ThemeUtil';
 

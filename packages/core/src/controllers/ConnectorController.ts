@@ -1,4 +1,4 @@
-import type { ConnectorType } from '@reown/appkit-common-react-native';
+import type { ConnectorType } from '@traildao/appkit-common-react-native';
 import { subscribeKey as subKey } from 'valtio/utils';
 import { proxy, ref } from 'valtio';
 import type { Connector } from '../utils/TypeUtil';

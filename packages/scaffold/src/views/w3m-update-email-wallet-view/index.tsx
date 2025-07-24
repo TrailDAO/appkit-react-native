@@ -7,8 +7,8 @@ import {
   SnackController,
   EventsController,
   type AppKitFrameProvider
-} from '@reown/appkit-core-react-native';
-import { Button, EmailInput, FlexView, Spacing, Text } from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-core-react-native';
+import { Button, EmailInput, FlexView, Spacing, Text } from '@traildao/appkit-ui-react-native';
 import { useKeyboard } from '../../hooks/useKeyboard';
 
 import styles from './styles';

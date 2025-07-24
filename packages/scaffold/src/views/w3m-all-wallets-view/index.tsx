@@ -5,8 +5,8 @@ import {
   EventsController,
   RouterController,
   type WcWallet
-} from '@reown/appkit-core-react-native';
-import { FlexView, IconLink, SearchBar, Spacing, useTheme } from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-core-react-native';
+import { FlexView, IconLink, SearchBar, Spacing, useTheme } from '@traildao/appkit-ui-react-native';
 
 import styles from './styles';
 import { useDebounceCallback } from '../../hooks/useDebounceCallback';

@@ -9,11 +9,11 @@ import {
   Text,
   UiUtil,
   Link
-} from '@reown/appkit-ui-react-native';
-import { type SwapTokenWithBalance } from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-ui-react-native';
+import { type SwapTokenWithBalance } from '@traildao/appkit-core-react-native';
 
 import styles from './styles';
-import { NumberUtil } from '@reown/appkit-common-react-native';
+import { NumberUtil } from '@traildao/appkit-common-react-native';
 
 export interface SwapInputProps {
   token?: SwapTokenWithBalance;

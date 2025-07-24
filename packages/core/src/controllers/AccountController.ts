@@ -1,6 +1,6 @@
 import { proxy } from 'valtio';
 import { subscribeKey as subKey } from 'valtio/utils';
-import type { Balance } from '@reown/appkit-common-react-native';
+import type { Balance } from '@traildao/appkit-common-react-native';
 
 import { CoreHelperUtil } from '../utils/CoreHelperUtil';
 import type { AppKitFrameAccountType, CaipAddress, ConnectedWalletInfo } from '../utils/TypeUtil';

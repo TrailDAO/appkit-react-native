@@ -1,5 +1,5 @@
-import { RouterController } from '@reown/appkit-core-react-native';
-import { Chip, FlexView, Link, Separator, Spacing, Text } from '@reown/appkit-ui-react-native';
+import { RouterController } from '@traildao/appkit-core-react-native';
+import { Chip, FlexView, Link, Separator, Spacing, Text } from '@traildao/appkit-ui-react-native';
 import { Linking, StyleSheet } from 'react-native';
 
 export interface WalletGuideProps {

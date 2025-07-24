@@ -1,4 +1,4 @@
-import { BorderRadius, FlexView, Text, useTheme } from '@reown/appkit-ui-react-native';
+import { BorderRadius, FlexView, Text, useTheme } from '@traildao/appkit-ui-react-native';
 import { StyleSheet } from 'react-native';
 
 export interface PreviewSendPillProps {

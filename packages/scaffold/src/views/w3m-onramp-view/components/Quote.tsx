@@ -1,5 +1,5 @@
-import { NumberUtil } from '@reown/appkit-common-react-native';
-import { type OnRampQuote } from '@reown/appkit-core-react-native';
+import { NumberUtil } from '@traildao/appkit-common-react-native';
+import { type OnRampQuote } from '@traildao/appkit-core-react-native';
 import {
   FlexView,
   Image,
@@ -10,7 +10,7 @@ import {
   BorderRadius,
   Icon,
   Pressable
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import { StyleSheet } from 'react-native';
 
 interface Props {

@@ -9,7 +9,7 @@ import {
   NetworkButton,
   useTheme,
   Promo
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import {
   AccountController,
   ApiController,
@@ -18,7 +18,7 @@ import {
   NetworkController,
   RouterController,
   SendController
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 import { AccountWalletFeatures } from '../../partials/w3m-account-wallet-features';

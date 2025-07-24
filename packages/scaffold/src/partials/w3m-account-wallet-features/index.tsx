@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useSnapshot } from 'valtio';
-import { Balance, FlexView, IconLink, Tabs } from '@reown/appkit-ui-react-native';
+import { Balance, FlexView, IconLink, Tabs } from '@traildao/appkit-ui-react-native';
 import {
   AccountController,
   ConstantsUtil,
@@ -11,8 +11,8 @@ import {
   OptionsController,
   RouterController,
   SwapController
-} from '@reown/appkit-core-react-native';
-import type { Balance as BalanceType } from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-core-react-native';
+import type { Balance as BalanceType } from '@traildao/appkit-common-react-native';
 import { AccountActivity } from '../w3m-account-activity';
 import { AccountTokens } from '../w3m-account-tokens';
 import styles from './styles';

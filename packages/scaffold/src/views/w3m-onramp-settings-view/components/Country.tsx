@@ -1,4 +1,4 @@
-import type { OnRampCountry } from '@reown/appkit-core-react-native';
+import type { OnRampCountry } from '@traildao/appkit-core-react-native';
 import {
   Pressable,
   FlexView,
@@ -6,7 +6,7 @@ import {
   Text,
   Icon,
   BorderRadius
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import { StyleSheet } from 'react-native';
 import { SvgUri } from 'react-native-svg';
 

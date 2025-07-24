@@ -1,9 +1,9 @@
 import { createConnector, ChainNotConfiguredError } from 'wagmi';
 import { SwitchChainError, getAddress, type Address, type Hex } from 'viem';
 
-import { AppKitFrameProvider } from '@reown/appkit-wallet-react-native';
-import { StorageUtil } from '@reown/appkit-core-react-native';
-import { ConstantsUtil, PresetsUtil } from '@reown/appkit-common-react-native';
+import { AppKitFrameProvider } from '@traildao/appkit-wallet-react-native';
+import { StorageUtil } from '@traildao/appkit-core-react-native';
+import { ConstantsUtil, PresetsUtil } from '@traildao/appkit-common-react-native';
 
 export type Metadata = {
   name: string;

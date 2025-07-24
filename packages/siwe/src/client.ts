@@ -3,8 +3,8 @@ import {
   NetworkController,
   ConnectionController,
   RouterUtil
-} from '@reown/appkit-core-react-native';
-import { NetworkUtil } from '@reown/appkit-common-react-native';
+} from '@traildao/appkit-core-react-native';
+import { NetworkUtil } from '@traildao/appkit-common-react-native';
 
 import type {
   SIWECreateMessageArgs,

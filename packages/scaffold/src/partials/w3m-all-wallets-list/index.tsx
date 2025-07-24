@@ -8,14 +8,14 @@ import {
   SnackController,
   type OptionsControllerState,
   type WcWallet
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 import {
   CardSelect,
   CardSelectLoader,
   CardSelectHeight,
   FlexView,
   Spacing
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import styles from './styles';
 import { UiUtil } from '../../utils/UiUtil';
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';

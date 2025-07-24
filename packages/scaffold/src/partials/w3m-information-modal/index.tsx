@@ -6,7 +6,7 @@ import {
   IconBox,
   useTheme,
   Button
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import styles from './styles';
 
 interface InformationModalProps {

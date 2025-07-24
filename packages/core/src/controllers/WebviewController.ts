@@ -1,4 +1,4 @@
-import type { SocialProvider } from '@reown/appkit-common-react-native';
+import type { SocialProvider } from '@traildao/appkit-common-react-native';
 import { proxy, subscribe as sub } from 'valtio';
 
 // -- Types --------------------------------------------- //

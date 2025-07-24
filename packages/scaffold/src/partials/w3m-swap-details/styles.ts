@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { BorderRadius, Spacing } from '@reown/appkit-ui-react-native';
+import { BorderRadius, Spacing } from '@traildao/appkit-ui-react-native';
 
 export default StyleSheet.create({
   container: {

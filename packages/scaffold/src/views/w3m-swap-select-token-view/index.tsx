@@ -10,7 +10,7 @@ import {
   Text,
   TokenButton,
   useTheme
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 
 import {
   AssetUtil,
@@ -18,7 +18,7 @@ import {
   RouterController,
   SwapController,
   type SwapTokenWithBalance
-} from '@reown/appkit-core-react-native';
+} from '@traildao/appkit-core-react-native';
 
 import { useCustomDimensions } from '../../hooks/useCustomDimensions';
 import { Placeholder } from '../../partials/w3m-placeholder';

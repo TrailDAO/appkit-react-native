@@ -8,7 +8,7 @@ import {
   Spacing,
   Text,
   useTheme
-} from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-ui-react-native';
 import { StyleSheet, View } from 'react-native';
 
 interface PaymentButtonProps {

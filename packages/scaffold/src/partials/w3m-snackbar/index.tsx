@@ -1,8 +1,8 @@
 import { useSnapshot } from 'valtio';
 import { useEffect, useMemo } from 'react';
 import { Animated } from 'react-native';
-import { SnackController, type SnackControllerState } from '@reown/appkit-core-react-native';
-import { Snackbar as SnackbarComponent } from '@reown/appkit-ui-react-native';
+import { SnackController, type SnackControllerState } from '@traildao/appkit-core-react-native';
+import { Snackbar as SnackbarComponent } from '@traildao/appkit-ui-react-native';
 
 import styles from './styles';
 

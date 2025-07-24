@@ -14,9 +14,9 @@ import {
   NetworkController,
   ConnectionController,
   SnackController
-} from '@reown/appkit-core-react-native';
-import { ErrorUtil } from '@reown/appkit-common-react-native';
-import { useTheme, BorderRadius } from '@reown/appkit-ui-react-native';
+} from '@traildao/appkit-core-react-native';
+import { ErrorUtil } from '@traildao/appkit-common-react-native';
+import { useTheme, BorderRadius } from '@traildao/appkit-ui-react-native';
 import type { AppKitFrameProvider } from './AppKitFrameProvider';
 import { AppKitFrameConstants } from './AppKitFrameConstants';
 import { AppKitFrameHelpers } from './AppKitFrameHelpers';

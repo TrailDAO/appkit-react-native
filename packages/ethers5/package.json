@@ -1,5 +1,5 @@
 {
-  "name": "@reown/appkit-ethers5-react-native",
+  "name": "@traildao/appkit-ethers5-react-native",
   "version": "1.2.6",
   "main": "lib/commonjs/index.js",
   "types": "lib/typescript/index.d.ts",
@@ -38,10 +38,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@reown/appkit-common-react-native": "1.2.6",
-    "@reown/appkit-scaffold-react-native": "1.2.6",
-    "@reown/appkit-scaffold-utils-react-native": "1.2.6",
-    "@reown/appkit-siwe-react-native": "1.2.6",
+    "@traildao/appkit-common-react-native": "1.2.6",
+    "@traildao/appkit-scaffold-react-native": "1.2.6",
+    "@traildao/appkit-scaffold-utils-react-native": "1.2.6",
+    "@traildao/appkit-siwe-react-native": "1.2.6",
     "@walletconnect/ethereum-provider": "2.21.5"
   },
   "peerDependencies": {
