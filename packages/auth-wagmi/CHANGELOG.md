@@ -1,5 +1,16 @@
 # @reown/appkit-auth-wagmi-react-native
 
+## 1.2.7
+
+### Patch Changes
+
+- bad build
+
+- Updated dependencies []:
+  - @traildao/appkit-common-react-native@1.2.7
+  - @traildao/appkit-core-react-native@1.2.7
+  - @traildao/appkit-wallet-react-native@1.2.7
+
 ## 1.2.6
 
 ### Patch Changes

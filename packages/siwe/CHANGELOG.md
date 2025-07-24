@@ -1,5 +1,16 @@
 # @reown/appkit-siwe-react-native
 
+## 1.2.7
+
+### Patch Changes
+
+- bad build
+
+- Updated dependencies []:
+  - @traildao/appkit-common-react-native@1.2.7
+  - @traildao/appkit-core-react-native@1.2.7
+  - @traildao/appkit-ui-react-native@1.2.7
+
 ## 1.2.6
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # @reown/appkit-coinbase-wagmi-react-native
 
+## 1.2.7
+
+### Patch Changes
+
+- bad build
+
+- Updated dependencies []:
+  - @traildao/appkit-common-react-native@1.2.7
+
 ## 1.2.6
 
 ### Patch Changes
