@@ -1,5 +1,5 @@
-import { NumberUtil } from '@reown/appkit-common-react-native';
-import { OnRampController } from '@reown/appkit-core-react-native';
+import { NumberUtil } from '@traildao/appkit-common-react-native';
+import { OnRampController } from '@traildao/appkit-core-react-native';
 
 export interface OnRampUrlData {
   purchaseCurrency: string | null;
@@ -27,21 +27,21 @@ export function parseOnRampRedirectUrl(url: string): OnRampUrlData | null {
     const purchaseAmountParam = searchParams.get('cryptoAmount');
     const purchaseAmount = purchaseAmountParam
       ? (() => {
-          const parsed = parseFloat(purchaseAmountParam);
+        const parsed = parseFloat(purchaseAmountParam);
 
-          return isNaN(parsed)
-            ? OnRampController.state.selectedQuote?.destinationAmount ?? null
-            : parsed;
-        })()
+        return isNaN(parsed)
+          ? OnRampController.state.selectedQuote?.destinationAmount ?? null
+          : parsed;
+      })()
       : OnRampController.state.selectedQuote?.destinationAmount ?? null;
 
     const amountParam = searchParams.get('fiatAmount');
     const amount = amountParam
       ? (() => {
-          const parsed = parseFloat(amountParam);
+        const parsed = parseFloat(amountParam);
 
-          return isNaN(parsed) ? OnRampController.state.paymentAmount ?? null : parsed;
-        })()
+        return isNaN(parsed) ? OnRampController.state.paymentAmount ?? null : parsed;
+      })()
       : OnRampController.state.paymentAmount ?? null;
 
     const currency =
