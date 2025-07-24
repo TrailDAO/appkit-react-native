@@ -31,6 +31,7 @@ config.resolver.resolveRequest = (context, moduleName, platform) => {
       filePath: nativePath,
     };
   }
+  
   return context.resolveRequest(context, moduleName, platform);
 };
 
